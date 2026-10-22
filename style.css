@@ -290,6 +290,16 @@ h1 span {
 
 .boton-claro:hover {
     background: #eeecfa;
+
+}
+.boton {
+    box-shadow: 0 8px 20px rgba(116, 99, 232, 0.25);
+    letter-spacing: 0.3px;
+}
+
+.boton:focus {
+    outline: 3px solid #b9b0ff;
+    outline-offset: 4px;
 }
 
 footer {
